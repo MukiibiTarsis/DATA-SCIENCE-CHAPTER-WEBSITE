@@ -1,0 +1,107 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("download.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:goldenrod;
+}
+
+.tools page{
+    max-width: 100px;
+    margin:auto;
+    padding:20px;
+}
+
+header{
+    text-align: center;
+    padding:20px;
+}
+
+h1{
+    font-size: 2em;
+    color:white;
+}
+
+.tool-category{
+    margin-top: 40px;
+}
+
+.tool-category h2{
+    font-size: 1.5em;
+    color:white;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.tool-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.tool-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-between;
+}
+
+.tool-card{
+    display:flex;
+    background-color:black;
+    padding:20px;
+    border-radius: 8px;
+    box-shadow:0 2px 4px rgb(81, 52, 225);
+    width:220px;
+    flex:1 1 45%;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.icon-container{
+    width:200px;
+    height:200px;
+    display: block;
+    justify-content: flex-start;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.icon{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    margin:0;
+    align-self: flex-start;
+}
+.tool-content icon{
+    margin:0
+}
+
+.tool-content{
+    margin-top:0;
+    font-size: 1.2em;
+    color:white;
+}
+
+.tool-content p{
+    color:rgb(81, 59, 3);
+    margin:8px 00;
+}
+
+footer{
+    text-align: end;
+    padding:20px;
+    background-color: rgb(83, 133, 241);
+    color:black;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .tool-card{
+        max-width: 100%;
+    }
+}
